@@ -1,0 +1,30 @@
+{
+  "name": "koa-minify",
+  "version": "1.0.0",
+  "author": "coderaiser",
+  "description": "Minify middleware for koa",
+  "dependencies": {
+    "koa": "~0.13.0",
+    "minify": "~1.0.13"
+  },
+  "main": "lib/koa-minify",
+  "bin": {
+      "koa-minify": "bin/koa-minify.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node --harmony bin/koa-minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coderaiser/koa-minify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coderaiser/koa-minify/issues"
+  },
+  "homepage": "https://github.com/coderaiser/koa-minify"
+}
