@@ -9,9 +9,15 @@
 ## Use
 
 ```js
+var koa         = require('koa'),
+    koaMinify   = require('koa-minify'),
+    app         = koa();
+
 app.use(koaMinify({
     dir: __dirname
 }));
+
+app.listen(3000);
 ```
 
 ## License
