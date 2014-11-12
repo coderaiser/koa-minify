@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "koa": "~0.13.0",
-    "minify": "~1.0.13"
+    "minify": "~1.1.0"
   },
   "main": "lib/koa-minify",
   "bin": {
