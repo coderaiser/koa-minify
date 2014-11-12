@@ -1,6 +1,6 @@
 {
   "name": "koa-minify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "coderaiser",
   "description": "Minify middleware for koa",
   "keywords": [
@@ -14,7 +14,7 @@
   },
   "main": "lib/koa-minify",
   "bin": {
-      "koa-minify": "bin/harmony.js"
+    "koa-minify": "bin/harmony.js"
   },
   "license": "MIT",
   "engines": {
