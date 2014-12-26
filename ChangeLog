@@ -1,3 +1,10 @@
+2014.12.26, v1.0.5
+
+feature:
+- (package) koa v0.14
+- (package) minify v1.4.4
+
+
 2014.11.17, v1.0.4
 
 feature:

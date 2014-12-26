@@ -1,6 +1,6 @@
 {
   "name": "koa-minify",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "coderaiser",
   "description": "Minify middleware for koa",
   "keywords": [
