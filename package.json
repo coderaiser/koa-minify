@@ -14,7 +14,7 @@
   },
   "main": "lib/koa-minify",
   "bin": {
-    "koa-minify": "bin/harmony.js"
+    "koa-minify": "bin/koa-minify.js"
   },
   "license": "MIT",
   "engines": {
