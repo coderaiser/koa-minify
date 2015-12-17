@@ -14,15 +14,15 @@
   },
   "main": "lib/koa-minify",
   "bin": {
-    "koa-minify": "bin/harmony.js koa-minify"
+    "koa-minify": "bin/harmony.js"
   },
   "license": "MIT",
   "engines": {
-    "node": ">= 0.11.0"
+    "node": ">= 4"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node --harmony bin/koa-minify"
+    "start": "bin/koa-minify.js"
   },
   "repository": {
     "type": "git",
