@@ -9,9 +9,9 @@
 ## Use
 
 ```js
-var koa         = require('koa'),
-    koaMinify   = require('koa-minify'),
-    app         = koa();
+const koa = require('koa');
+const koaMinify = require('koa-minify');
+const app = new koa();
 
 app.use(koaMinify({
     dir: __dirname
@@ -23,3 +23,4 @@ app.listen(3000);
 ## License
 
 MIT
+

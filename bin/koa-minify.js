@@ -1,21 +1,17 @@
 #!/usr/bin/env node
 
-(function() {
-    'use strict';
-    
-    var koa         = require('koa'),
-        
-        DIR         = '../lib/',
-        
-        koaMinify   = require(DIR + 'koa-minify'),
-        koaError    = require(DIR + 'koa-error'),
-        app         = koa();
-    
-    app .use(koaError)
-        .use(koaMinify({
-            dir: process.cwd()
-        }));
-    
-    app.listen(3000);
-    console.log('port:', 3000);
-})();
+'use strict';
+
+const koa = require('koa');
+const DIR = '../lib/';
+const koaMinify = require(DIR + 'koa-minify');
+const koaError = require(DIR + 'koa-error');
+const app = new koa();
+
+app .use(koaError)
+    .use(koaMinify({
+        dir: process.cwd()
+    }));
+
+app.listen(3000);
+console.log('port:', 3000);
